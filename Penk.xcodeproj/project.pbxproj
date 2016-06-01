@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035229C01CFE74D3001D946D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229BF1CFE74D3001D946D /* AppDelegate.swift */; };
+		035229C21CFE74D3001D946D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229C11CFE74D3001D946D /* ViewController.swift */; };
+		035229C51CFE74D3001D946D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035229C31CFE74D3001D946D /* Main.storyboard */; };
+		035229C81CFE74D3001D946D /* Penk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 035229C61CFE74D3001D946D /* Penk.xcdatamodeld */; };
+		035229CA1CFE74D3001D946D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035229C91CFE74D3001D946D /* Assets.xcassets */; };
+		035229CD1CFE74D3001D946D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035229CB1CFE74D3001D946D /* LaunchScreen.storyboard */; };
+		035229D81CFE74D3001D946D /* PenkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229D71CFE74D3001D946D /* PenkTests.swift */; };
+		035229E31CFE74D3001D946D /* PenkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229E21CFE74D3001D946D /* PenkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035229D41CFE74D3001D946D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035229B41CFE74D3001D946D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035229BB1CFE74D3001D946D;
+			remoteInfo = Penk;
+		};
+		035229DF1CFE74D3001D946D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035229B41CFE74D3001D946D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035229BB1CFE74D3001D946D;
+			remoteInfo = Penk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035229BC1CFE74D3001D946D /* Penk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035229BF1CFE74D3001D946D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035229C11CFE74D3001D946D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035229C41CFE74D3001D946D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035229C71CFE74D3001D946D /* Penk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Penk.xcdatamodel; sourceTree = "<group>"; };
+		035229C91CFE74D3001D946D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035229CC1CFE74D3001D946D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		035229CE1CFE74D3001D946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035229D31CFE74D3001D946D /* PenkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035229D71CFE74D3001D946D /* PenkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenkTests.swift; sourceTree = "<group>"; };
+		035229D91CFE74D3001D946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035229DE1CFE74D3001D946D /* PenkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035229E21CFE74D3001D946D /* PenkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenkUITests.swift; sourceTree = "<group>"; };
+		035229E41CFE74D3001D946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035229B91CFE74D3001D946D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229D01CFE74D3001D946D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229DB1CFE74D3001D946D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035229B31CFE74D3001D946D = {
+			isa = PBXGroup;
+			children = (
+				035229BE1CFE74D3001D946D /* Penk */,
+				035229D61CFE74D3001D946D /* PenkTests */,
+				035229E11CFE74D3001D946D /* PenkUITests */,
+				035229BD1CFE74D3001D946D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035229BD1CFE74D3001D946D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035229BC1CFE74D3001D946D /* Penk.app */,
+				035229D31CFE74D3001D946D /* PenkTests.xctest */,
+				035229DE1CFE74D3001D946D /* PenkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035229BE1CFE74D3001D946D /* Penk */ = {
+			isa = PBXGroup;
+			children = (
+				035229BF1CFE74D3001D946D /* AppDelegate.swift */,
+				035229C11CFE74D3001D946D /* ViewController.swift */,
+				035229C31CFE74D3001D946D /* Main.storyboard */,
+				035229C91CFE74D3001D946D /* Assets.xcassets */,
+				035229CB1CFE74D3001D946D /* LaunchScreen.storyboard */,
+				035229CE1CFE74D3001D946D /* Info.plist */,
+				035229C61CFE74D3001D946D /* Penk.xcdatamodeld */,
+			);
+			path = Penk;
+			sourceTree = "<group>";
+		};
+		035229D61CFE74D3001D946D /* PenkTests */ = {
+			isa = PBXGroup;
+			children = (
+				035229D71CFE74D3001D946D /* PenkTests.swift */,
+				035229D91CFE74D3001D946D /* Info.plist */,
+			);
+			path = PenkTests;
+			sourceTree = "<group>";
+		};
+		035229E11CFE74D3001D946D /* PenkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				035229E21CFE74D3001D946D /* PenkUITests.swift */,
+				035229E41CFE74D3001D946D /* Info.plist */,
+			);
+			path = PenkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035229BB1CFE74D3001D946D /* Penk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035229E71CFE74D3001D946D /* Build configuration list for PBXNativeTarget "Penk" */;
+			buildPhases = (
+				035229B81CFE74D3001D946D /* Sources */,
+				035229B91CFE74D3001D946D /* Frameworks */,
+				035229BA1CFE74D3001D946D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Penk;
+			productName = Penk;
+			productReference = 035229BC1CFE74D3001D946D /* Penk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035229D21CFE74D3001D946D /* PenkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035229EA1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkTests" */;
+			buildPhases = (
+				035229CF1CFE74D3001D946D /* Sources */,
+				035229D01CFE74D3001D946D /* Frameworks */,
+				035229D11CFE74D3001D946D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035229D51CFE74D3001D946D /* PBXTargetDependency */,
+			);
+			name = PenkTests;
+			productName = PenkTests;
+			productReference = 035229D31CFE74D3001D946D /* PenkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		035229DD1CFE74D3001D946D /* PenkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035229ED1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkUITests" */;
+			buildPhases = (
+				035229DA1CFE74D3001D946D /* Sources */,
+				035229DB1CFE74D3001D946D /* Frameworks */,
+				035229DC1CFE74D3001D946D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035229E01CFE74D3001D946D /* PBXTargetDependency */,
+			);
+			name = PenkUITests;
+			productName = PenkUITests;
+			productReference = 035229DE1CFE74D3001D946D /* PenkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035229B41CFE74D3001D946D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "lzy-os";
+				TargetAttributes = {
+					035229BB1CFE74D3001D946D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					035229D21CFE74D3001D946D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 035229BB1CFE74D3001D946D;
+					};
+					035229DD1CFE74D3001D946D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 035229BB1CFE74D3001D946D;
+					};
+				};
+			};
+			buildConfigurationList = 035229B71CFE74D3001D946D /* Build configuration list for PBXProject "Penk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035229B31CFE74D3001D946D;
+			productRefGroup = 035229BD1CFE74D3001D946D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035229BB1CFE74D3001D946D /* Penk */,
+				035229D21CFE74D3001D946D /* PenkTests */,
+				035229DD1CFE74D3001D946D /* PenkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035229BA1CFE74D3001D946D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035229CD1CFE74D3001D946D /* LaunchScreen.storyboard in Resources */,
+				035229CA1CFE74D3001D946D /* Assets.xcassets in Resources */,
+				035229C51CFE74D3001D946D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229D11CFE74D3001D946D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229DC1CFE74D3001D946D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035229B81CFE74D3001D946D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035229C81CFE74D3001D946D /* Penk.xcdatamodeld in Sources */,
+				035229C21CFE74D3001D946D /* ViewController.swift in Sources */,
+				035229C01CFE74D3001D946D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229CF1CFE74D3001D946D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035229D81CFE74D3001D946D /* PenkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035229DA1CFE74D3001D946D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035229E31CFE74D3001D946D /* PenkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035229D51CFE74D3001D946D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035229BB1CFE74D3001D946D /* Penk */;
+			targetProxy = 035229D41CFE74D3001D946D /* PBXContainerItemProxy */;
+		};
+		035229E01CFE74D3001D946D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035229BB1CFE74D3001D946D /* Penk */;
+			targetProxy = 035229DF1CFE74D3001D946D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035229C31CFE74D3001D946D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035229C41CFE74D3001D946D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035229CB1CFE74D3001D946D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035229CC1CFE74D3001D946D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035229E51CFE74D3001D946D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035229E61CFE74D3001D946D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035229E81CFE74D3001D946D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Penk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.Penk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035229E91CFE74D3001D946D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Penk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.Penk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035229EB1CFE74D3001D946D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PenkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.PenkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penk.app/Penk";
+			};
+			name = Debug;
+		};
+		035229EC1CFE74D3001D946D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PenkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.PenkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penk.app/Penk";
+			};
+			name = Release;
+		};
+		035229EE1CFE74D3001D946D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PenkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.PenkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Penk;
+			};
+			name = Debug;
+		};
+		035229EF1CFE74D3001D946D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PenkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.PenkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Penk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035229B71CFE74D3001D946D /* Build configuration list for PBXProject "Penk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035229E51CFE74D3001D946D /* Debug */,
+				035229E61CFE74D3001D946D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035229E71CFE74D3001D946D /* Build configuration list for PBXNativeTarget "Penk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035229E81CFE74D3001D946D /* Debug */,
+				035229E91CFE74D3001D946D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035229EA1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035229EB1CFE74D3001D946D /* Debug */,
+				035229EC1CFE74D3001D946D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035229ED1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035229EE1CFE74D3001D946D /* Debug */,
+				035229EF1CFE74D3001D946D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		035229C61CFE74D3001D946D /* Penk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				035229C71CFE74D3001D946D /* Penk.xcdatamodel */,
+			);
+			currentVersion = 035229C71CFE74D3001D946D /* Penk.xcdatamodel */;
+			path = Penk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 035229B41CFE74D3001D946D /* Project object */;
+}
