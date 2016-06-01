@@ -1,0 +1,47 @@
+//
+//  PKMarkPen.swift
+//  Penk
+//
+//  Created by Yunhao on 16/5/30.
+//  Copyright © 2016年 Yunhao. All rights reserved.
+//
+
+import UIKit
+import Material
+import GoogleMaterialDesignIcons
+
+class PKMarkPen: PKMenuView {
+    
+    init() {
+        super.init()
+        
+        // Initialize the menu and setup the configuration options.
+        menu.direction = .Down
+        menu.views = [
+            PKFabButton(googleIcon: GoogleIcon.ea3a),
+            PKFabButton(googleIcon: GoogleIcon.e82e, customTag: "0.1"),
+            PKFabButton(googleIcon: GoogleIcon.e82e, customTag: "0.3"),
+            PKFabButton(googleIcon: GoogleIcon.e82e, customTag: "0.5"),
+            PKFabButton(googleIcon: GoogleIcon.e82e, customTag: "0.8")
+        ]
+        
+        for btn in menu.views! {
+            if btn === menu.views?.first {
+                (btn as! PKFabButton).addTarget(self, action: #selector(handleMenu), forControlEvents: .TouchUpInside)
+            } else {
+                (btn as! PKFabButton).addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
+            }
+            addSubview(btn)
+        }
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    internal func markPenLineSize(button: UIButton) -> CGFloat {
+        return (button as! PKFabButton).customTag.CGFloatValue
+    }
+}
+

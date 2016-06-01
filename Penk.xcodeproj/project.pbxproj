@@ -8,13 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		035229C01CFE74D3001D946D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229BF1CFE74D3001D946D /* AppDelegate.swift */; };
-		035229C21CFE74D3001D946D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229C11CFE74D3001D946D /* ViewController.swift */; };
+		035229C21CFE74D3001D946D /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229C11CFE74D3001D946D /* ContentController.swift */; };
 		035229C51CFE74D3001D946D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035229C31CFE74D3001D946D /* Main.storyboard */; };
 		035229C81CFE74D3001D946D /* Penk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 035229C61CFE74D3001D946D /* Penk.xcdatamodeld */; };
 		035229CA1CFE74D3001D946D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035229C91CFE74D3001D946D /* Assets.xcassets */; };
 		035229CD1CFE74D3001D946D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035229CB1CFE74D3001D946D /* LaunchScreen.storyboard */; };
 		035229D81CFE74D3001D946D /* PenkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229D71CFE74D3001D946D /* PenkTests.swift */; };
 		035229E31CFE74D3001D946D /* PenkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035229E21CFE74D3001D946D /* PenkUITests.swift */; };
+		03522A421CFF0606001D946D /* googleicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03522A411CFF0606001D946D /* googleicon.ttf */; };
+		03522A5C1CFF072D001D946D /* PKBookNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A4C1CFF072D001D946D /* PKBookNavigationBar.swift */; };
+		03522A5D1CFF072D001D946D /* PKBookScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A4D1CFF072D001D946D /* PKBookScrollView.swift */; };
+		03522A5E1CFF072D001D946D /* PKBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A4E1CFF072D001D946D /* PKBookView.swift */; };
+		03522A5F1CFF072D001D946D /* PKBookData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A501CFF072D001D946D /* PKBookData+CoreDataProperties.swift */; };
+		03522A601CFF072D001D946D /* PKBookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A511CFF072D001D946D /* PKBookData.swift */; };
+		03522A611CFF072D001D946D /* PKDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A521CFF072D001D946D /* PKDataManager.swift */; };
+		03522A621CFF072D001D946D /* PKimgData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A531CFF072D001D946D /* PKimgData+CoreDataProperties.swift */; };
+		03522A631CFF072D001D946D /* PKimgData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A541CFF072D001D946D /* PKimgData.swift */; };
+		03522A641CFF072D001D946D /* PKMaxData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A551CFF072D001D946D /* PKMaxData+CoreDataProperties.swift */; };
+		03522A651CFF072D001D946D /* PKMaxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A561CFF072D001D946D /* PKMaxData.swift */; };
+		03522A661CFF072D001D946D /* PKPageData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A571CFF072D001D946D /* PKPageData+CoreDataProperties.swift */; };
+		03522A671CFF072D001D946D /* PKPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A581CFF072D001D946D /* PKPageData.swift */; };
+		03522A681CFF072D001D946D /* PKPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A5A1CFF072D001D946D /* PKPageView.swift */; };
+		03522A6A1CFF0755001D946D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522A691CFF0755001D946D /* HomeController.swift */; };
+		31A4A30C1CFF0BA400B266BA /* PKFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2F71CFF0BA400B266BA /* PKFabButton.swift */; };
+		31A4A30D1CFF0BA400B266BA /* PKMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2F81CFF0BA400B266BA /* PKMenuView.swift */; };
+		31A4A30E1CFF0BA400B266BA /* PKStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2F91CFF0BA400B266BA /* PKStateButton.swift */; };
+		31A4A30F1CFF0BA400B266BA /* PKEraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2FB1CFF0BA400B266BA /* PKEraser.swift */; };
+		31A4A3101CFF0BA400B266BA /* PKMarkPen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2FC1CFF0BA400B266BA /* PKMarkPen.swift */; };
+		31A4A3111CFF0BA400B266BA /* PKMoveHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2FD1CFF0BA400B266BA /* PKMoveHand.swift */; };
+		31A4A3121CFF0BA400B266BA /* PKPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2FE1CFF0BA400B266BA /* PKPallet.swift */; };
+		31A4A3131CFF0BA400B266BA /* PKPencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A2FF1CFF0BA400B266BA /* PKPencil.swift */; };
+		31A4A3141CFF0BA400B266BA /* PKPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3001CFF0BA400B266BA /* PKPhotoPicker.swift */; };
+		31A4A3151CFF0BA400B266BA /* PKTextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3011CFF0BA400B266BA /* PKTextEdit.swift */; };
+		31A4A3161CFF0BA400B266BA /* PKUndoRedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3021CFF0BA400B266BA /* PKUndoRedo.swift */; };
+		31A4A3171CFF0BA400B266BA /* PKBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3031CFF0BA400B266BA /* PKBottomBar.swift */; };
+		31A4A3181CFF0BA400B266BA /* PKCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3041CFF0BA400B266BA /* PKCanvas.swift */; };
+		31A4A3191CFF0BA400B266BA /* PKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3051CFF0BA400B266BA /* PKImageView.swift */; };
+		31A4A31A1CFF0BA400B266BA /* PKTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3061CFF0BA400B266BA /* PKTextView.swift */; };
+		31A4A31B1CFF0BA400B266BA /* PKTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3071CFF0BA400B266BA /* PKTopBar.swift */; };
+		31A4A31C1CFF0BA400B266BA /* PKImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A3091CFF0BA400B266BA /* PKImage.swift */; };
+		31A4A31D1CFF0BA400B266BA /* PKPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A30A1CFF0BA400B266BA /* PKPixel.swift */; };
+		31A4A31F1CFF0C4D00B266BA /* PKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4A31E1CFF0C4D00B266BA /* PKConfig.swift */; };
+		84B9E4941D20BFAAEAFD6BB3 /* Pods_Penk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BB97B7A9A3F4CE0F23471 /* Pods_Penk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +72,7 @@
 /* Begin PBXFileReference section */
 		035229BC1CFE74D3001D946D /* Penk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035229BF1CFE74D3001D946D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		035229C11CFE74D3001D946D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035229C11CFE74D3001D946D /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
 		035229C41CFE74D3001D946D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		035229C71CFE74D3001D946D /* Penk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Penk.xcdatamodel; sourceTree = "<group>"; };
 		035229C91CFE74D3001D946D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +84,43 @@
 		035229DE1CFE74D3001D946D /* PenkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035229E21CFE74D3001D946D /* PenkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenkUITests.swift; sourceTree = "<group>"; };
 		035229E41CFE74D3001D946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03522A411CFF0606001D946D /* googleicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = googleicon.ttf; sourceTree = "<group>"; };
+		03522A4C1CFF072D001D946D /* PKBookNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKBookNavigationBar.swift; sourceTree = "<group>"; };
+		03522A4D1CFF072D001D946D /* PKBookScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKBookScrollView.swift; sourceTree = "<group>"; };
+		03522A4E1CFF072D001D946D /* PKBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKBookView.swift; sourceTree = "<group>"; };
+		03522A501CFF072D001D946D /* PKBookData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKBookData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03522A511CFF072D001D946D /* PKBookData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKBookData.swift; sourceTree = "<group>"; };
+		03522A521CFF072D001D946D /* PKDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDataManager.swift; sourceTree = "<group>"; };
+		03522A531CFF072D001D946D /* PKimgData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKimgData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03522A541CFF072D001D946D /* PKimgData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKimgData.swift; sourceTree = "<group>"; };
+		03522A551CFF072D001D946D /* PKMaxData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKMaxData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03522A561CFF072D001D946D /* PKMaxData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMaxData.swift; sourceTree = "<group>"; };
+		03522A571CFF072D001D946D /* PKPageData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKPageData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03522A581CFF072D001D946D /* PKPageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPageData.swift; sourceTree = "<group>"; };
+		03522A5A1CFF072D001D946D /* PKPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPageView.swift; sourceTree = "<group>"; };
+		03522A691CFF0755001D946D /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		16A8B12ADDB02EA6D6276F43 /* Pods-Penk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Penk/Pods-Penk.debug.xcconfig"; sourceTree = "<group>"; };
+		31A4A2F71CFF0BA400B266BA /* PKFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKFabButton.swift; sourceTree = "<group>"; };
+		31A4A2F81CFF0BA400B266BA /* PKMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMenuView.swift; sourceTree = "<group>"; };
+		31A4A2F91CFF0BA400B266BA /* PKStateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKStateButton.swift; sourceTree = "<group>"; };
+		31A4A2FB1CFF0BA400B266BA /* PKEraser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKEraser.swift; sourceTree = "<group>"; };
+		31A4A2FC1CFF0BA400B266BA /* PKMarkPen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMarkPen.swift; sourceTree = "<group>"; };
+		31A4A2FD1CFF0BA400B266BA /* PKMoveHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMoveHand.swift; sourceTree = "<group>"; };
+		31A4A2FE1CFF0BA400B266BA /* PKPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPallet.swift; sourceTree = "<group>"; };
+		31A4A2FF1CFF0BA400B266BA /* PKPencil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPencil.swift; sourceTree = "<group>"; };
+		31A4A3001CFF0BA400B266BA /* PKPhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPhotoPicker.swift; sourceTree = "<group>"; };
+		31A4A3011CFF0BA400B266BA /* PKTextEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTextEdit.swift; sourceTree = "<group>"; };
+		31A4A3021CFF0BA400B266BA /* PKUndoRedo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKUndoRedo.swift; sourceTree = "<group>"; };
+		31A4A3031CFF0BA400B266BA /* PKBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKBottomBar.swift; sourceTree = "<group>"; };
+		31A4A3041CFF0BA400B266BA /* PKCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCanvas.swift; sourceTree = "<group>"; };
+		31A4A3051CFF0BA400B266BA /* PKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKImageView.swift; sourceTree = "<group>"; };
+		31A4A3061CFF0BA400B266BA /* PKTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTextView.swift; sourceTree = "<group>"; };
+		31A4A3071CFF0BA400B266BA /* PKTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTopBar.swift; sourceTree = "<group>"; };
+		31A4A3091CFF0BA400B266BA /* PKImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKImage.swift; sourceTree = "<group>"; };
+		31A4A30A1CFF0BA400B266BA /* PKPixel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPixel.swift; sourceTree = "<group>"; };
+		31A4A31E1CFF0C4D00B266BA /* PKConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKConfig.swift; sourceTree = "<group>"; };
+		836BB97B7A9A3F4CE0F23471 /* Pods_Penk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Penk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED791192092E518784C89F10 /* Pods-Penk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Penk/Pods-Penk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B9E4941D20BFAAEAFD6BB3 /* Pods_Penk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +156,8 @@
 				035229D61CFE74D3001D946D /* PenkTests */,
 				035229E11CFE74D3001D946D /* PenkUITests */,
 				035229BD1CFE74D3001D946D /* Products */,
+				F2BF9D58EC9C0809C5B21EB3 /* Pods */,
+				77838B64A02BF04DC5FB5AD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +174,13 @@
 		035229BE1CFE74D3001D946D /* Penk */ = {
 			isa = PBXGroup;
 			children = (
+				03522A401CFF0606001D946D /* fonts */,
+				31A4A2F31CFF0BA400B266BA /* ContentPage */,
+				03522A491CFF072C001D946D /* MainPage */,
+				31A4A31E1CFF0C4D00B266BA /* PKConfig.swift */,
 				035229BF1CFE74D3001D946D /* AppDelegate.swift */,
-				035229C11CFE74D3001D946D /* ViewController.swift */,
+				03522A691CFF0755001D946D /* HomeController.swift */,
+				035229C11CFE74D3001D946D /* ContentController.swift */,
 				035229C31CFE74D3001D946D /* Main.storyboard */,
 				035229C91CFE74D3001D946D /* Assets.xcassets */,
 				035229CB1CFE74D3001D946D /* LaunchScreen.storyboard */,
@@ -128,6 +208,133 @@
 			path = PenkUITests;
 			sourceTree = "<group>";
 		};
+		03522A401CFF0606001D946D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				03522A411CFF0606001D946D /* googleicon.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		03522A491CFF072C001D946D /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				03522A4B1CFF072D001D946D /* PKBookView */,
+				03522A4F1CFF072D001D946D /* PKData */,
+				03522A591CFF072D001D946D /* PKPageView */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		03522A4B1CFF072D001D946D /* PKBookView */ = {
+			isa = PBXGroup;
+			children = (
+				03522A4C1CFF072D001D946D /* PKBookNavigationBar.swift */,
+				03522A4D1CFF072D001D946D /* PKBookScrollView.swift */,
+				03522A4E1CFF072D001D946D /* PKBookView.swift */,
+			);
+			path = PKBookView;
+			sourceTree = "<group>";
+		};
+		03522A4F1CFF072D001D946D /* PKData */ = {
+			isa = PBXGroup;
+			children = (
+				03522A501CFF072D001D946D /* PKBookData+CoreDataProperties.swift */,
+				03522A511CFF072D001D946D /* PKBookData.swift */,
+				03522A521CFF072D001D946D /* PKDataManager.swift */,
+				03522A531CFF072D001D946D /* PKimgData+CoreDataProperties.swift */,
+				03522A541CFF072D001D946D /* PKimgData.swift */,
+				03522A551CFF072D001D946D /* PKMaxData+CoreDataProperties.swift */,
+				03522A561CFF072D001D946D /* PKMaxData.swift */,
+				03522A571CFF072D001D946D /* PKPageData+CoreDataProperties.swift */,
+				03522A581CFF072D001D946D /* PKPageData.swift */,
+			);
+			path = PKData;
+			sourceTree = "<group>";
+		};
+		03522A591CFF072D001D946D /* PKPageView */ = {
+			isa = PBXGroup;
+			children = (
+				03522A5A1CFF072D001D946D /* PKPageView.swift */,
+			);
+			path = PKPageView;
+			sourceTree = "<group>";
+		};
+		31A4A2F31CFF0BA400B266BA /* ContentPage */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A2F41CFF0BA400B266BA /* Components */,
+				31A4A3081CFF0BA400B266BA /* Utils */,
+			);
+			name = ContentPage;
+			path = Penk/ContentPage;
+			sourceTree = SOURCE_ROOT;
+		};
+		31A4A2F41CFF0BA400B266BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A2F51CFF0BA400B266BA /* Common */,
+				31A4A2FA1CFF0BA400B266BA /* MenuView */,
+				31A4A3031CFF0BA400B266BA /* PKBottomBar.swift */,
+				31A4A3041CFF0BA400B266BA /* PKCanvas.swift */,
+				31A4A3051CFF0BA400B266BA /* PKImageView.swift */,
+				31A4A3061CFF0BA400B266BA /* PKTextView.swift */,
+				31A4A3071CFF0BA400B266BA /* PKTopBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		31A4A2F51CFF0BA400B266BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A2F71CFF0BA400B266BA /* PKFabButton.swift */,
+				31A4A2F81CFF0BA400B266BA /* PKMenuView.swift */,
+				31A4A2F91CFF0BA400B266BA /* PKStateButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		31A4A2FA1CFF0BA400B266BA /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A2FB1CFF0BA400B266BA /* PKEraser.swift */,
+				31A4A2FC1CFF0BA400B266BA /* PKMarkPen.swift */,
+				31A4A2FD1CFF0BA400B266BA /* PKMoveHand.swift */,
+				31A4A2FE1CFF0BA400B266BA /* PKPallet.swift */,
+				31A4A2FF1CFF0BA400B266BA /* PKPencil.swift */,
+				31A4A3001CFF0BA400B266BA /* PKPhotoPicker.swift */,
+				31A4A3011CFF0BA400B266BA /* PKTextEdit.swift */,
+				31A4A3021CFF0BA400B266BA /* PKUndoRedo.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		31A4A3081CFF0BA400B266BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A3091CFF0BA400B266BA /* PKImage.swift */,
+				31A4A30A1CFF0BA400B266BA /* PKPixel.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		77838B64A02BF04DC5FB5AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836BB97B7A9A3F4CE0F23471 /* Pods_Penk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2BF9D58EC9C0809C5B21EB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16A8B12ADDB02EA6D6276F43 /* Pods-Penk.debug.xcconfig */,
+				ED791192092E518784C89F10 /* Pods-Penk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035229E71CFE74D3001D946D /* Build configuration list for PBXNativeTarget "Penk" */;
 			buildPhases = (
+				1C42866288CEAFB1B0302194 /* 📦 Check Pods Manifest.lock */,
 				035229B81CFE74D3001D946D /* Sources */,
 				035229B91CFE74D3001D946D /* Frameworks */,
 				035229BA1CFE74D3001D946D /* Resources */,
+				3949598772A65A4B2E525729 /* 📦 Embed Pods Frameworks */,
+				B7084EABE8F865F75EF65390 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +406,7 @@
 				TargetAttributes = {
 					035229BB1CFE74D3001D946D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5755C8947D;
 					};
 					035229D21CFE74D3001D946D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03522A421CFF0606001D946D /* googleicon.ttf in Resources */,
 				035229CD1CFE74D3001D946D /* LaunchScreen.storyboard in Resources */,
 				035229CA1CFE74D3001D946D /* Assets.xcassets in Resources */,
 				035229C51CFE74D3001D946D /* Main.storyboard in Resources */,
@@ -254,14 +466,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C42866288CEAFB1B0302194 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3949598772A65A4B2E525729 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Penk/Pods-Penk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7084EABE8F865F75EF65390 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Penk/Pods-Penk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		035229B81CFE74D3001D946D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03522A5E1CFF072D001D946D /* PKBookView.swift in Sources */,
+				31A4A31D1CFF0BA400B266BA /* PKPixel.swift in Sources */,
+				31A4A3121CFF0BA400B266BA /* PKPallet.swift in Sources */,
 				035229C81CFE74D3001D946D /* Penk.xcdatamodeld in Sources */,
-				035229C21CFE74D3001D946D /* ViewController.swift in Sources */,
+				31A4A30D1CFF0BA400B266BA /* PKMenuView.swift in Sources */,
+				03522A5F1CFF072D001D946D /* PKBookData+CoreDataProperties.swift in Sources */,
+				31A4A3191CFF0BA400B266BA /* PKImageView.swift in Sources */,
+				03522A671CFF072D001D946D /* PKPageData.swift in Sources */,
+				31A4A3181CFF0BA400B266BA /* PKCanvas.swift in Sources */,
+				03522A621CFF072D001D946D /* PKimgData+CoreDataProperties.swift in Sources */,
+				31A4A3131CFF0BA400B266BA /* PKPencil.swift in Sources */,
+				03522A681CFF072D001D946D /* PKPageView.swift in Sources */,
+				03522A631CFF072D001D946D /* PKimgData.swift in Sources */,
+				03522A661CFF072D001D946D /* PKPageData+CoreDataProperties.swift in Sources */,
+				03522A611CFF072D001D946D /* PKDataManager.swift in Sources */,
+				03522A5D1CFF072D001D946D /* PKBookScrollView.swift in Sources */,
+				31A4A31C1CFF0BA400B266BA /* PKImage.swift in Sources */,
+				31A4A3151CFF0BA400B266BA /* PKTextEdit.swift in Sources */,
+				31A4A3141CFF0BA400B266BA /* PKPhotoPicker.swift in Sources */,
+				03522A6A1CFF0755001D946D /* HomeController.swift in Sources */,
+				035229C21CFE74D3001D946D /* ContentController.swift in Sources */,
+				31A4A3161CFF0BA400B266BA /* PKUndoRedo.swift in Sources */,
+				31A4A3171CFF0BA400B266BA /* PKBottomBar.swift in Sources */,
+				31A4A30F1CFF0BA400B266BA /* PKEraser.swift in Sources */,
+				03522A601CFF072D001D946D /* PKBookData.swift in Sources */,
+				31A4A3111CFF0BA400B266BA /* PKMoveHand.swift in Sources */,
+				31A4A30E1CFF0BA400B266BA /* PKStateButton.swift in Sources */,
+				31A4A31B1CFF0BA400B266BA /* PKTopBar.swift in Sources */,
 				035229C01CFE74D3001D946D /* AppDelegate.swift in Sources */,
+				31A4A30C1CFF0BA400B266BA /* PKFabButton.swift in Sources */,
+				31A4A31F1CFF0C4D00B266BA /* PKConfig.swift in Sources */,
+				03522A651CFF072D001D946D /* PKMaxData.swift in Sources */,
+				03522A5C1CFF072D001D946D /* PKBookNavigationBar.swift in Sources */,
+				31A4A3101CFF0BA400B266BA /* PKMarkPen.swift in Sources */,
+				31A4A31A1CFF0BA400B266BA /* PKTextView.swift in Sources */,
+				03522A641CFF072D001D946D /* PKMaxData+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +694,31 @@
 		};
 		035229E81CFE74D3001D946D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A8B12ADDB02EA6D6276F43 /* Pods-Penk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Penk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzy.Penk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		035229E91CFE74D3001D946D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED791192092E518784C89F10 /* Pods-Penk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Penk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzy.Penk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +787,7 @@
 				035229E91CFE74D3001D946D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035229EA1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +796,7 @@
 				035229EC1CFE74D3001D946D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035229ED1CFE74D3001D946D /* Build configuration list for PBXNativeTarget "PenkUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +805,7 @@
 				035229EF1CFE74D3001D946D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

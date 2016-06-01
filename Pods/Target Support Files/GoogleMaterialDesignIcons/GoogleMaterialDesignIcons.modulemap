@@ -1,0 +1,6 @@
+framework module GoogleMaterialDesignIcons {
+  umbrella header "GoogleMaterialDesignIcons-umbrella.h"
+
+  export *
+  module * { export * }
+}

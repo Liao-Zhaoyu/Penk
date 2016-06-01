@@ -1,0 +1,18 @@
+PODS:
+  - GoogleMaterialDesignIcons (1.0.0)
+  - JTMaterialTransition (1.0.5)
+  - Material (1.41.5)
+
+DEPENDENCIES:
+  - GoogleMaterialDesignIcons (~> 1.0)
+  - JTMaterialTransition (~> 1.0)
+  - Material (~> 1.41)
+
+SPEC CHECKSUMS:
+  GoogleMaterialDesignIcons: 129e2760664080d4f3f383afa7a844b57de42cf6
+  JTMaterialTransition: 7b2a19927baa47e42312df941cbc5132dc4484ca
+  Material: e8344be7e2a9abb8a7f972253e549f47e5a0d2f0
+
+PODFILE CHECKSUM: 5357d01c8ab518555da8954a0ae4da538a357374
+
+COCOAPODS: 1.0.0
